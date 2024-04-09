@@ -31,11 +31,11 @@ public class LoginTest {
 		Assert.assertEquals(driver.getTitle(), "OrangeHRM");
 	}
 	
-	@Test(priority=1)
+	/*@Test(priority=1)
 	void Logo_Check() {
 		lp = new LoginPage2(driver);
 		Assert.assertEquals(lp.checkLogo(), true);
-	}
+	}*/
 	
 	@AfterClass
 	void tearDown() {

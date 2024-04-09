@@ -5,8 +5,8 @@
     <classes>
       <class name="Day13.LoginTest">
         <methods>
-          <include name="Logo_Check"/>
           <include name="setUp"/>
+          <include name="TestLogin"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Day13.LoginTest -->
