@@ -29,9 +29,9 @@ public class LoginPage {
 	public void clickSubmit() {
 		driver.findElement(clickbutton).click();	
 	}
-	public Boolean checkLogo() {
+	/*public Boolean checkLogo() {
 		Boolean status = driver.findElement(logo).isDisplayed();
 		return status;
-	}
+	}*/
 }
 

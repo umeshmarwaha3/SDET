@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropDownassign {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 ChromeDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
@@ -29,5 +29,10 @@ ChromeDriver driver = new ChromeDriver();
 		drp2.selectByVisibleText("Delhi");
 		WebElement out2 = drp2.getFirstSelectedOption();
 		System.out.println(out2.getText());
+		
+		
+		Thread.sleep(3000);
+		
+		driver.close();
 	}
 }

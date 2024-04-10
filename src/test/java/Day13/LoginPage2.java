@@ -1,6 +1,5 @@
 package Day13;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,8 +46,8 @@ public class LoginPage2 {
 		public void clickSubmit() {
 			clickbutton.click();	
 		}
-		public Boolean checkLogo() {
+		/*public Boolean checkLogo() {
 			Boolean status = logo.isDisplayed();
 			return status;
-		}
+		}*/
 }
